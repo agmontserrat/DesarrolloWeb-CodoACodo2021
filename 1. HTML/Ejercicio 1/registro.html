@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Registro del usuario</h2>
+    <form action="" method="GET">
+        <div>
+            <label for="nombre">Nombre</label> <!-- Atributo for: le pones el mismo nombre que el "name" de su input y al tocarlo te selecciona la caja-->
+            <input type='text' name="nombre" id="nombre" placeholder="Ingrese su nombre" required> <!--Type: que tipo de input. Name: Nombre con el que llega al servidor la variable (su valor es el ingresado en el campo). Id: se usa un poco mas para el css y javascript, identificarlos. no debe haber mas de un id por elemento.   -->
+        </div>
+        
+        <div>
+            <label for="">Contraseña</label> 
+            <input type='password' name="clave" id="clave" placeholder="Ingrese su Contraseña" required> <!-- Required: campo obligatorio-->
+        </div>
+        
+        <div>
+            <label for="">Correo electronico</label> 
+            <input type='email' name="correo" id="correo" placeholder="Ingrese su correo">
+        </div>
+        
+        <div>
+            <label for="masculino">Male</label>
+            <input type="radio" name="genero" id="masculino" value="Masculino">
+            <label for="femenino">Female</label>
+            <input type="radio" name="genero" id="femenino" value="Femenino">
+            <label for="otro">Other</label>
+            <input type="radio" name="genero" id="otro" value="Other">
+        </div> <!-- Poner el mismo name en todas porque hacen referencia a la misma variable y asi son mutualmente excluyentes los radio-->
+        
+        <div>
+            <label for="">Nacionalidad</label>
+            <select name="pais"> <!-- -->
+                <option value="AR">Argentina</option>
+                <option value="MX">Mexico</option>
+                <option value="SP">España</option>
+            </select>
+        </div>
+       
+        <div>
+            <label for="comentario">Comentario</label>
+            <textarea name="comentario" id="comentario" cols="30" rows="30" placeholder="Ingrese su opinion aca..."> 
+            </textarea>
+        </div>
+
+
+        <input type="checkbox" id="mayorEdad"> <!-- Se puede poner checked para que aparezca chequeado de una-->
+        <!--<input type="number" name="age" id="age" min="1" max="100"> Ejemplo para edad-->
+        <input type="submit" value="Enviar"> <!-- Input con forma de boton que dispara a enviar automaticamente la info a la direccion del "action" del form. Esto ya es backend. method: otro atributo que puede tener los valores get o post-->
+        <input type="reset" value="Blanquear campos">
+
+
+    </form>
+    <br>
+    <br>
+    <br>
+    <a href="index.html"></a>
+</body>
+</html>
