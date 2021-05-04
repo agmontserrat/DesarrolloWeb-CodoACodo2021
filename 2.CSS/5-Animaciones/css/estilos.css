@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: orangered;
+}
+
+.caja{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+
+}

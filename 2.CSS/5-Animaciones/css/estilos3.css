@@ -1,0 +1,22 @@
+.caja{
+    transition: 3s;
+    /* background-image: url(../img/mountains-1587287_960_720\ \(1\).webp); */
+    filter: grayscale(100%);
+}
+
+.caja:hover{
+    border-radius: 50%; 
+    transform: rotate(30deg) ; 
+    background-color: cornsilk; 
+    filter: grayscale(50%);
+}
+
+.caja:active{
+    border: rgb(0, 0, 0) solid 8px;
+}
+
+
+h1::first-letter{
+    color: wheat;
+    font-size: 2rem;
+}

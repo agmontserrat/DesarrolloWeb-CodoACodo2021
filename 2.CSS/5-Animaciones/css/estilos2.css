@@ -1,0 +1,14 @@
+.caja{
+    /* Los mueve en el eje x y el eje y */
+    /* transform: translateX(100px); */
+    transform: translate(-50px, -50px); 
+    /*Lo rota*/
+    transform: rotate(10deg);
+    /* Lo escala la cantidad de veces que le pasamos en un eje*/
+    transform: scaleX(2);
+    /* Como que lo deforma */
+    transform: skew(20deg, 5deg);
+
+    /* Para hacer varios a la vez */
+    transform: translate(-10px, 0px) rotate(-5deg) scaleX(1);
+}

@@ -1,0 +1,22 @@
+.contenedor{
+    display: flex;
+    
+}
+
+.elemento{
+    
+    width: 300px;
+    height: 300px;
+    margin:5px;
+    font-size: 40px;
+}
+
+#cajaRoja{
+    background-color: red;
+    color:yellow;
+}
+
+#cajaNegra{
+    background-color: black;
+    color:white;
+}

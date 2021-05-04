@@ -1,0 +1,44 @@
+#contenedorExterno{
+    width: ;
+}
+
+#contenedor{
+    width: 600px;
+    height: 300px;
+    border: 10px solid black;
+    margin: 20px;
+    display: flex; /*Significa q vas a colocar los elemento segun yo te de el orden. Ya no interesa si es de bloque o de linea*/
+    flex-direction: row; /*Si queremos ordenarlos en columna o fila*/
+    /*flex-wrap: wrap;/* Si tienen una medida mayor, respeta su tamaño y los distribuye para que entren*/
+    justify-content: flex-start; /*Para row: distribucion horizontal. Si es column: distribucion vertical. */
+    align-items: flex-start;
+    align-content:center;
+}
+
+.elemento{
+    width: 60px;
+    height: 60px;
+    font-size: 2.5rem;
+    border: 1px solid black;
+    text-align: center;
+    margin: 3px;
+    flex-grow: 1;
+}
+
+#caja1{
+    background-color: red;
+    /*align-self: center;;*/
+    /*order: 1;*/
+}
+#caja2{
+    background-color: greenyellow;
+    /*order: 2; para generar un orden*/
+    /*flex-grow: 2; para agrandar proporcionalmente*/
+}
+#caja3{
+    background-color: khaki;
+
+}
+#caja4{
+    background-color: lightskyblue;
+}
