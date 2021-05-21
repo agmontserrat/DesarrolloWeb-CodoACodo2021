@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>Ejemplo Bootstrap</title>
+</head>
+<body>
+    
+    <!-- Comienzo Header -->
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgba(5,17,56,0.9);">
+
+                        <a class="navbar-brand" href="#">Arterum</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                      
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                              <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Imágenes</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                            </li>
+                              </ul>
+                        </div>
+                      </nav>
+
+                </div>
+            </div>
+            <div class="row principal mt-3">
+                <div class="col-12">
+
+                    <h1 class="pt-5 text-center">Conquistando el <span id="arte">Arte</span></h1>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Comienzo Main-->
+    <main>
+      <div class="container">
+
+        <h2 class="pt-4 pb-4 mt-2 text-center bg-light colorPrincipal">Servicios Ofrecidos</h2>
+
+        <!-- Servicios-->
+        <div class="row">
+            <div class="col">
+              <div id="accordion">
+                <div class="card colorPrincipal">
+                  <div class="card-header colorPrincipal btn-block text-center" id="headingOne">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link colorPrincipal" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                         Pintura Rústica Contemporánea
+                      </button>
+                    </h5>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+                <div class="card colorPrincipal">
+                  <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed colorPrincipal btn-block text-center" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Arte Moderno Europeo
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header colorPrincipal btn-block text-center" id="headingThree">
+                    <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Arte Latinoamericano
+                      </button>
+                    </h5>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+
+        <div class="row mt-1">
+          <div class="col">
+
+            <div class="jumbotron">
+              <h1 class="display-4 text-center colorPrincipal">Atención!</h1>
+              <p class="lead text-center colorPrincipal">Consultenos hoy mismo!</p>
+              <hr class="my-4">
+              <p class= "text-center colorPrincipal">Sus intereses son los nuestros.</p>
+              <!-- <p class="lead">
+                <a class="btn btn-primary btn-lg" href="#" role="button">Comentarios</a>
+              </p> -->
+
+              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Comentarios</button>
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Mensaje</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group">
+                          <label for="recipient-name" class="col-form-label">Asunto:</label>
+                          <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="form-group">
+                          <label for="message-text" class="col-form-label">Detalle:</label>
+                          <textarea class="form-control" rows="10" id="message-text"></textarea>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                      <button type="button" class="btn btn-primary">Enviar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>    
+        </div>
+
+
+        <!-- Galeria-->
+        
+        <div class="row">
+          <div class="col-12 col-md-4 producto">
+            <img src="https://picsum.photos/id/900/600/400" alt="">
+          </div>      
+          <div class="col-12 col-md-4 producto">
+            <img src="https://picsum.photos/id/800/600/400" alt="">
+          </div>    
+          <div class="col-12 col-md-4 producto">
+            <img src="https://picsum.photos/id/980/600/400" alt="">
+          </div>     
+          <div class="col-12 col-md-4 producto">
+            <img src="https://picsum.photos/id/684/600/400" alt="">
+          </div>      
+        </div>
+
+
+        <!--Contacto-->
+        <div class="row">
+                    
+        </div>
+      </div>
+    </main>
+
+
+    <!--Comienzo Footer -->
+    <footer>
+
+
+    </footer>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
